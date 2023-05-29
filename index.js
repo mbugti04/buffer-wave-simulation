@@ -90,6 +90,18 @@ function draw() {
 	buffer1 = buffer2;
 	buffer2 = temp;
 
+    // time passed in seconds
+    // stroke(0);
+    fill(0);
     let timePassed = Math.round((frameCount / fr) * 10) / 10;
     text(timePassed, width / 2, height / 2);
+
+    // draw wave emittor circle
+    noStroke();
+    fill(255,0,0);
+    ellipse(emittorX, emittorY, 5, 5);
+
+    // draw reciever triangles
+    
+
 }
