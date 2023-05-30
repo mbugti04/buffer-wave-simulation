@@ -37,7 +37,8 @@ let scene2;
 function setup() {
     // Sets the pixel scaling for high pixel density displays
     pixelDensity(1);
-    createCanvas(arrWidth * 2, arrHeight);
+    let myCanvas = createCanvas(arrWidth * 2, arrHeight);
+    myCanvas.parent('main-div');
 
     // Create both off-screen graphics buffers
     scene1 = createGraphics(arrWidth, arrHeight);
@@ -98,8 +99,8 @@ function drawUI() {
     let angle2 = radians(270);
     rotate(angle2);
     // Draw the letter to the screen
-    text("TIME (s)", -scene1.width / 2, scene1.height * 1.05);
-    text("DEPTH Z", -scene1.width / 2, scene1.height / 20);
+    text("Time (s)", -scene2.width / 2, scene2.height * 1.05);
+    text("Depth Z", -scene1.width / 2, scene1.height / 20);
 
 }
 

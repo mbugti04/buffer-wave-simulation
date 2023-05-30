@@ -9,17 +9,19 @@
     <link rel="stylesheet" type="text/css" href="style.css"></link>
 </head>
 <body>
-    <div>
-        <h1>Wave with data</h1>
-        <p>The emittor (red) sends out waves, which are measured when they hit the top.</p>
-        <p>The measurements are displayed on the right on a location vs time graph</p>
+    <div id="main-div">
+        <div id="">
+            <h1>Acoustic Waveform Propogation through horizontally layered velocity model</h1>
+            <p>The emitter (red) sends out waves, which are measured when they hit the top.</p>
+            <p>The measurements are displayed on the right graph</p>
+        </div>
+        <div class="container">
+            <form>
+                <input id="button" type="button" value="Generate Random Waves" />
+            </form>
+            <p id="description">Generates 10 waves at random points</p>          
+        </div>
+        <script src="indexwithdata.js"></script>
     </div>
-    <div>
-        <form>
-            <input id="button" type="button" value="Generate Random Waves" />
-          </form>
-          <p id="description">Generates 10 waves at random points</p>          
-    </div>
-    <script src="indexwithdata.js"></script>
 </body>
 </html>
