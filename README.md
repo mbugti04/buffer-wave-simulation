@@ -1,8 +1,10 @@
 # buffer-wave-simulation
 
-https://p5js.org/reference/
+Simple and efficient wave simulation with JS using the [P5.js library](https://p5js.org/reference/).
 
-https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm
+Algorithm source: https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm
+
+Other sources:
 
 https://stackoverflow.com/questions/37240287/can-i-create-multiple-canvas-elements-on-same-page-using-p5js
 
